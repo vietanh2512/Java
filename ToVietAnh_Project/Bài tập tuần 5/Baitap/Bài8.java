@@ -6,7 +6,7 @@ public class Bài8 {
 
 	public static void main(String[] args) {
 		int n;
-		float tbc,b=0,c;
+		float tbc,Tong=0,c;
 		Scanner sc= new Scanner(System.in);
 		do {
 			System.out.print("Nhập số phần tử có trong dãy số: ");	
@@ -16,10 +16,10 @@ public class Bài8 {
 		for (int i=1;i<=n;i++) {
 			System.out.print("Nhập số thứ"+i+":");
 			c=sc.nextFloat();
-			b+=c;
+			Tong+=c;
 			
 		}
-		tbc=(float)b/n;
+		tbc=(float)Tong/n;
 		System.out.printf("Trung bình cộng các số là:%.2f",tbc);
 			
 		  
